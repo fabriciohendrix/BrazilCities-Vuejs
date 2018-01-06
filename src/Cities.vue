@@ -46,7 +46,7 @@
                         <div class="control">
                             <div class="tags has-addons">
                                 <span class="tag">IBGE Code: </span>
-                                <span class="tag is-danger">{{city.id}}</span>
+                                <span class="tag is-danger">{{city.ibge_code}}</span>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                     <div class="column">
                         <label class="label">IBGE Code</label>
                         <p class="control">
-                            <input class="input" type="text" placeholder="Código" v-model="selected.id">
+                            <input class="input" type="text" placeholder="Código" v-model="selected.ibge_code">
                         </p>
                     </div>
                 </div>                
