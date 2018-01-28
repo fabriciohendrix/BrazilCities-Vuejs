@@ -5,11 +5,6 @@
 ## Setup
 
 ```bash
-# json-server global install
-npm install -g json-server
-```
-
-```bash
 # git clone repo
 git clone https://github.com/fabriciohendrix/BrazilCities-Vuejs.git
 ```
@@ -17,6 +12,11 @@ git clone https://github.com/fabriciohendrix/BrazilCities-Vuejs.git
 ```bash
 # entering the repository
 cd crud-vuejs
+```
+
+```bash
+# json-server global install
+npm install -g json-server
 ```
 
 ```bash
